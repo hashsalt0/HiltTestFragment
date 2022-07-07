@@ -27,6 +27,6 @@ class HiltFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<TextView>(R.id.textView).text = networkService.callApi()
+        view.findViewById<TextView>(R.id.fragment_text).text = networkService.callApi()
     }
 }
